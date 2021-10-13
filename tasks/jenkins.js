@@ -21,10 +21,10 @@ module.exports = function (grunt) {
   grunt.registerTask('jenkins:docs', ['docker:docs']);
 
   grunt.registerTask('jenkins:unit', [
-    'run:eslint',
-    'run:sasslint',
-    'run:checkTsProjects',
-    'run:checkDocApiChanges',
+    // 'run:eslint',
+    // 'run:sasslint',
+    // 'run:checkTsProjects',
+    // 'run:checkDocApiChanges',
     'run:typeCheck',
     'run:i18nCheck',
     'run:checkFileCasing',
